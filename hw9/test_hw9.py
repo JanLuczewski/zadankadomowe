@@ -8,7 +8,7 @@
 # czy jeśli podam prawidłowe wartości to dostanie poprawną długość trzeciego boku - dwa testy dla różnych wartości
 import pytest
 import math
-from hw9.triangle import oblicz_bok
+from triangle import oblicz_bok
 
 def test_oblicz_bok():
     result = oblicz_bok(2,2)
